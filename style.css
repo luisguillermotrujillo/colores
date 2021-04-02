@@ -10,6 +10,7 @@ html{
     width: 100%;
     min-width: 100px;
     height: 100px;
+    display: inline-block;
 }
 .header{
     background-color: blueviolet;
@@ -42,6 +43,11 @@ html{
 
 } 
 @media(min-width: 600px){
+    /* .container{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
     .header{
         background-color: rgb(155, 133, 175);
         width: 50%;
@@ -52,7 +58,7 @@ html{
         background-color: aqua;
         width: 50%;
         border: solid 10px;
-        border-radius: 100px;
+        border-radius: 100px; 
     }
     .section{
         background-color: chartreuse;
@@ -81,5 +87,9 @@ html{
         background-color: rgb(186, 186, 226);
         border: solid 10px;
         border-radius: 100px;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
     }
 } 
