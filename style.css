@@ -40,21 +40,22 @@ html{
 .container{
     display: flex;
     flex-wrap: wrap;
-
 } 
 @media(min-width: 600px){
-    /* .container{
-        width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-    } */
+    .container{
+    display: flex;
+    flex-wrap: wrap;
+    width:40%;
+    display:inline-block;
+    margin-left: 60%;
+    }
     .header{
         background-color: rgb(155, 133, 175);
         width: 50%;
         border: solid 10px;
         border-radius: 100px;
     }
-    .header1{
+    .header-1{
         background-color: aqua;
         width: 50%;
         border: solid 10px;
@@ -90,6 +91,5 @@ html{
     }
     header{
         display: flex;
-        flex-wrap: wrap;
     }
 } 
