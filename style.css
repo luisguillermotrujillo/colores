@@ -47,7 +47,7 @@ html{
     flex-wrap: wrap;
     width:40%;
     display:inline-block;
-    margin-left: 60%;
+    /*margin-left: 60%;*/
     }
     .header{
         background-color: rgb(155, 133, 175);
@@ -66,8 +66,8 @@ html{
         width: 100%;
         border: solid 10px;
         border-radius: 100px;
-        /* height: 100vh;
-        margin-left: 50px; */
+        height: 100vh;
+        /*margin-left: 50px;*/ 
     }
     .main1{
         background-color: rgb(236, 218, 218);
@@ -91,5 +91,9 @@ html{
     }
     header{
         display: flex;
+    }
+    .div1{
+        display: flex;
+        justify-content: stretch;
     }
 } 
