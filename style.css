@@ -11,6 +11,7 @@ html{
     min-width: 100px;
     height: 100px;
     display: inline-block;
+    border: solid 5px;
 }
 .header{
     background-color: blueviolet;
@@ -22,29 +23,35 @@ html{
 }
 .section{
     background-color: chartreuse;
+    margin-top: 10px;
     /* height: 100vh;
     margin-left: 50px; */
 }
 .main1{
     background-color: brown;
+    margin-top: 10px;
 }
 .main2{
     background-color: antiquewhite;
+    margin-top: 10px;
 }
 .main3{
     background-color: chocolate;
+    margin-top: 10px;
 }
 .footer{
     background-color: darkblue;
+    margin-top: 10px;
 }
 .container{
     display: flex;
     flex-wrap: wrap;
+    
 } 
 @media(min-width: 600px){
     .container{
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     width:40%;
     display:inline-block;
     /*margin-left: 60%;*/
@@ -63,26 +70,33 @@ html{
     }
     .section{
         background-color: chartreuse;
-        width: 100%;
+        width: 50%;
         border: solid 10px;
         border-radius: 100px;
-        height: 100vh;
+        height: 450px;
         /*margin-left: 50px;*/ 
     }
     .main1{
         background-color: rgb(236, 218, 218);
         border: solid 10px;
         border-radius: 100px;
+        margin-left: 85px;
+        height: 32%;
     }
     .main2{
         background-color: rgb(158, 149, 138);
         border: solid 10px;
         border-radius: 100px;
+        margin-left: 85px;
+        height: 32%;
     }
     .main3{
         background-color: rgb(228, 211, 199);
         border: solid 10px;
         border-radius: 100px;
+        margin-left: 85px;
+        height: 32%;
+        margin-top: 10px;
     }
     .footer{
         background-color: rgb(186, 186, 226);
@@ -95,5 +109,25 @@ html{
     .div1{
         display: flex;
         justify-content: stretch;
+    }
+}
+@media(min-width: 800px){
+    .header{
+        background-color: rgb(228, 12, 12);
+        width: 30%;
+        border-radius: 5px; 
+        margin-left: auto;
+    }
+    .header-1{
+        background-color: rgba(23, 43, 226, 0.342);
+        width: 30%;
+        border-radius: 5px; 
+    }
+    .div1{
+        margin-right: 450px;
+        border-radius: 10px;
+    }
+    .main-footer{
+        display: flex;
     }
 } 
