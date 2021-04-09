@@ -123,11 +123,32 @@ html{
         width: 30%;
         border-radius: 5px; 
     }
-    .div1{
-        margin-right: 450px;
-        border-radius: 10px;
+    /* .div1{
+        margin-right: 40px;
+        
+    } */
+    .section{
+        border-radius: 5px;
+        height: 500px;
+        width: 40%;
+    }
+    .main1{
+        border-radius: 5px;
+        /*margin-right: 90px;*/
+    }
+    .main2{
+        border-radius: 5px;
+    }
+    .main3{
+        border-radius: 5px;
     }
     .main-footer{
         display: flex;
+    }
+    .footer{
+        border-radius: 5px;
+        width: 500px;
+        height: 200px;
+        margin-top: 150px;
     }
 } 
